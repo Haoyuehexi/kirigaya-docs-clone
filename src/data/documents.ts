@@ -5,7 +5,6 @@ export interface Document {
   date: string;
   tags: string[];
   category: string;
-  href: string;
 }
 
 export const documents: Document[] = [
@@ -16,7 +15,6 @@ export const documents: Document[] = [
     date: "2025-04-22",
     tags: ["mcp", "大模型", "技术文档"],
     category: "技术",
-    href: "#/docs/openmcp"
   },
   {
     id: "torchood",
@@ -25,7 +23,6 @@ export const documents: Document[] = [
     date: "2024-12-16",
     tags: ["python", "我的开源作品", "技术文档"],
     category: "技术",
-    href: "#/docs/torchood"
   },
   {
     id: "rust-nom",
@@ -34,7 +31,6 @@ export const documents: Document[] = [
     date: "2024-11-28",
     tags: ["rust", "技术文档"],
     category: "技术",
-    href: "#/docs/rust-nom"
   },
   {
     id: "i18n-haru",
@@ -43,7 +39,6 @@ export const documents: Document[] = [
     date: "2024-11-18",
     tags: ["i18n", "我的开源作品", "技术文档"],
     category: "技术",
-    href: "#/docs/i18n-haru"
   },
   {
     id: "rust-tutorial",
@@ -52,7 +47,6 @@ export const documents: Document[] = [
     date: "2024-09-19",
     tags: ["rust", "技术文档"],
     category: "技术",
-    href: "#/docs/rust-tutorial"
   },
   {
     id: "live2d-render",
@@ -61,7 +55,6 @@ export const documents: Document[] = [
     date: "2024-06-26",
     tags: ["live2d", "我的开源作品", "技术文档"],
     category: "技术",
-    href: "#/docs/live2d-render"
   },
   {
     id: "lagrange-onebot",
@@ -70,7 +63,6 @@ export const documents: Document[] = [
     date: "2024-06-01",
     tags: ["qq", "我的开源作品", "技术文档"],
     category: "技术",
-    href: "#/docs/lagrange-onebot"
   },
   {
     id: "cpp-features",
@@ -79,7 +71,6 @@ export const documents: Document[] = [
     date: "2024-05-20",
     tags: ["C++", "技术文档"],
     category: "技术",
-    href: "#/docs/cpp-features"
   },
   {
     id: "interpretation-of-dreams",
@@ -88,7 +79,6 @@ export const documents: Document[] = [
     date: "2024-03-02",
     tags: ["精神分析学派", "心理学"],
     category: "读物",
-    href: "#/docs/interpretation-of-dreams"
   },
   {
     id: "lake",
@@ -97,7 +87,6 @@ export const documents: Document[] = [
     date: "2023-08-19",
     tags: ["日本文学", "川端康成"],
     category: "读物",
-    href: "#/docs/lake"
   }
 ];
 

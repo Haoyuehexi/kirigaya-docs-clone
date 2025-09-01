@@ -55,7 +55,7 @@ const Index = () => {
                   description={doc.description}
                   date={doc.date}
                   tags={doc.tags}
-                  href={doc.href}
+                  docId={doc.id}
                 />
               ))}
               
